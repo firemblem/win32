@@ -50,7 +50,7 @@ BOOL CALLBACK InfoDlgProc( HWND, UINT, WPARAM, LPARAM );
 //
 // Fill the COPYDATA structure
 // 
-   MyCDS.dwData = MYPRINT;          // function identifier
+   MyCDS.dwData = MYDISPLAY;          // function identifier
    MyCDS.cbData = sizeof( MyRec );  // size of data
    MyCDS.lpData = &MyRec;           // data structure
 //
